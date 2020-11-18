@@ -6,10 +6,7 @@ class ZaloLoader:
         self.data = []
 
     def read_csv(self, filepath):
-        self.data = self.data.append(pd.read_csv(filepath, encoding="ISO-8859-1"))
+        self.data = self.data.append(pd.read_csv(filepath))
         return self.data
-
-    def sum(self, a):
-        print(a)
 
 
